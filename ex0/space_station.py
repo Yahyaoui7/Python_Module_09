@@ -1,5 +1,3 @@
-
-
 from datetime import datetime
 from typing import Optional
 
@@ -38,7 +36,6 @@ def main() -> None:
     """Run a small demo: one valid station + one invalid station."""
     print("Space Station Data Validation")
     print("=" * 40)
-
 
     station_ok = SpaceStation(
         station_id="ISS001",
